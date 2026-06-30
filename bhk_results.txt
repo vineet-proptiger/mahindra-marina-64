@@ -1,0 +1,8 @@
+app/layout.js:36: title: 'L&T Crestoria | 3 & 4 BHK Luxury Apartments in Panvel Mumbai',
+app/layout.js:56: "headline": "L&T Crestoria | 3 & 4 BHK Luxury Apartments in Panvel Mumbai",
+components/Overview.jsx:47: { label: 'Configuration',      value: '3 & 4 BHK', bgColor: '#F4FAF4' },
+components/Pricing.jsx:9: type: "3 BHK Residences",
+components/Pricing.jsx:21: type: "4 BHK Residences",
+components/QuickChat.jsx:56: {text: "🏛️ 3 & 4 BHK floor plan", link: "https://wa.me/919718344024?text=Hi%2C%20please%20send%20me%20the%203%20and%204%20BHK%20floor%20plan%20for%20L%26T%20Crestoria."},
+components/Footer.jsx:17: 3 & 4 BHK Luxury Apartments — off Panvel
+components/Footer.jsx:24: L&T Crestoria is a premier luxury residential development off Panvel, offering premium 3 &amp; 4 BHK apartments. Thoughtfully curated amenities, iconic views, advanced security, and smart home features — L&T Crestoria is designed for those who demand the extraordinary.
