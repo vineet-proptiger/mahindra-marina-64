@@ -61,7 +61,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
             
             {/* Compact Side-by-Side Header */}
             <div className="flex items-center justify-start gap-3 sm:gap-4 mb-6 border-b border-gray-100 pb-4 mt-2">
-              <div className="relative w-[90px] sm:w-[100px] h-10 sm:h-12 shrink-0">
+              <div className="relative w-[92px] sm:w-[102px] h-[42px] sm:h-[50px] shrink-0">
                 <Image 
                   src={logoImages.tarc} 
                   alt="Mahindra Marina 64 Logo" 
