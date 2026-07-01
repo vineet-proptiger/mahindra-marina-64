@@ -59,23 +59,21 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
 
           <div className="p-6 sm:p-7 flex flex-col justify-center flex-1 relative">
             
-            {/* Compact Side-by-Side Header */}
-            <div className="flex items-center justify-start gap-3 sm:gap-4 mb-6 border-b border-gray-100 pb-4 mt-2">
-              <div className="relative w-[92px] sm:w-[102px] h-[42px] sm:h-[50px] shrink-0">
+            {/* Stacked Header */}
+            <div className="flex flex-col items-center justify-center mb-5 border-b border-gray-100 pb-3 mt-2 text-center">
+              <h3 
+                className="text-[14.5px] sm:text-[15.5px] font-bold text-gray-800 tracking-[0.5px] sm:tracking-[1px] uppercase leading-tight" 
+                style={{ fontFamily: F_JOST }}
+              >
+                Book A Free <span className="text-[var(--color-gold)]">Site Visit</span>
+              </h3>
+              <div className="relative w-[131px] sm:w-[151px] h-[56px] sm:h-[66px] shrink-0 -mt-1">
                 <Image 
                   src={logoImages.tarc} 
                   alt="Mahindra Marina 64 Logo" 
                   fill 
                   className="object-contain" 
                 />
-              </div>
-              <div className="flex items-center border-l border-gray-200 pl-3 sm:pl-4 min-h-[32px] sm:min-h-[40px]">
-                <h3 
-                  className="text-[13.5px] sm:text-[14.5px] font-bold text-gray-800 tracking-[0.5px] sm:tracking-[1px] uppercase whitespace-normal sm:whitespace-nowrap leading-tight" 
-                  style={{ fontFamily: F_JOST }}
-                >
-                  Book A Free <span className="text-[var(--color-gold)]">Site Visit</span>
-                </h3>
               </div>
             </div>
 
