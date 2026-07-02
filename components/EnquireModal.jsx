@@ -62,10 +62,13 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
             {/* Stacked Header */}
             <div className="flex flex-col items-center justify-center mb-5 border-b border-gray-100 pb-3 mt-2 text-center">
               <h3 
-                className="text-[14.5px] sm:text-[15.5px] font-bold text-gray-800 tracking-[0.5px] sm:tracking-[1px] uppercase leading-tight" 
-                style={{ fontFamily: F_JOST }}
+                style={{
+                  fontFamily: F_JOST, fontWeight: '700', fontSize: '17px',
+                  color: '#684C1B', letterSpacing: '0.1em',
+                  textTransform: 'uppercase', margin: 0,
+                }}
               >
-                Book A Free <span className="text-[var(--color-gold)]">Site Visit</span>
+                BOOK A FREE SITE VISIT
               </h3>
               <div className="relative w-[131px] sm:w-[151px] h-[56px] sm:h-[66px] shrink-0 -mt-1">
                 <Image 
